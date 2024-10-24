@@ -640,7 +640,8 @@ function tagFooter(){
 
     //変換
     array[a]=`<ui:define name="footer">`;
-    array[c]=`</ui:define>`;
+    array[c]=`</ui:define>
+</ui:composition>`;
 
     inArray();//終了
 
